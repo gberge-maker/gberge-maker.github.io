@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Ilustración en España</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Libre+Baskerville', serif;
+        }
+
+        .seccion-oscura {
+            background-color: #0f172a;
+            color: #f1f5f9;
+        }
+
+        .borde-oro {
+            border-color: #b45309;
+        }
+
+        .texto-oro {
+            color: #d97706;
+        }
+
+        .tarjeta-estudio {
+            background: white;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .linea-decorativa {
+            height: 2px;
+            width: 60px;
+            background-color: #d97706;
+            margin: 1rem auto;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Encabezado -->
+    <header class="seccion-oscura py-16 px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">La Ilustración en España</h1>
+        <div class="linea-decorativa"></div>
+        <p class="max-w-3xl mx-auto text-slate-400 italic text-lg">
+            Un análisis del siglo de las luces: de la reforma de las ideas al sentimiento prerromántico.
+        </p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-16 space-y-24">
+
+        <!-- Contexto histórico -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <h2 class="text-3xl font-bold">El contexto de reforma</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    La llegada de la dinastía de los Borbones introdujo en España el despotismo ilustrado. Este modelo político buscaba la modernización del estado y la felicidad de los ciudadanos mediante la razón, pero sin alterar la estructura del poder absolutista.
+                </p>
+                <div class="p-6 tarjeta-estudio rounded-xl border-l-4 borde-oro">
+                    <h3 class="font-bold mb-2">Instituciones para el progreso</h3>
+                    <p class="text-sm text-slate-500">
+                        Se fundan organismos como la Biblioteca Nacional, la Real Academia Española y el Museo del Prado para centralizar y difundir el saber científico y artístico.
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 gap-4">
+                <div class="p-6 bg-slate-100 rounded-xl border border-slate-200">
+                    <h4 class="font-bold texto-oro mb-1">Racionalismo</h4>
+                    <p class="text-xs">La razón como única herramienta contra la ignorancia y la superstición.</p>
+                </div>
+                <div class="p-6 bg-slate-100 rounded-xl border border-slate-200">
+                    <h4 class="font-bold texto-oro mb-1">Didactismo</h4>
+                    <p class="text-xs">El arte tiene la obligación moral de ser útil y educar a la sociedad.</p>
+                </div>
+                <div class="p-6 bg-slate-100 rounded-xl border border-slate-200">
+                    <h4 class="font-bold texto-oro mb-1">Neoclasicismo</h4>
+                    <p class="text-xs">El equilibrio y la sencillez frente a los excesos del periodo barroco.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- El pensamiento y el ensayo -->
+        <section class="space-y-10">
+            <h2 class="text-3xl font-bold text-center">El pensamiento y el ensayo</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Benito Jerónimo Feijoo -->
+                <div class="tarjeta-estudio p-8 rounded-2xl space-y-4">
+                    <h3 class="text-xl font-bold">Benito Jerónimo Feijoo</h3>
+                    <p class="text-sm text-slate-600">
+                        Es el gran iniciador del ensayo español. Su obra lucha contra los errores comunes y las creencias infundadas de su tiempo mediante un estilo claro y directo.
+                    </p>
+                    <div class="pt-4 border-t border-slate-100">
+                        <span class="text-xs font-bold texto-oro uppercase">Obra destacada:</span>
+                        <p class="italic text-slate-800">Teatro crítico universal</p>
+                    </div>
+                </div>
+                <!-- Jovellanos -->
+                <div class="tarjeta-estudio p-8 rounded-2xl space-y-4">
+                    <h3 class="text-xl font-bold">Gaspar Melchor de Jovellanos</h3>
+                    <p class="text-sm text-slate-600">
+                        Representa el espíritu del político ilustrado. Sus escritos proponen reformas económicas y educativas necesarias para el progreso de la nación española.
+                    </p>
+                    <div class="pt-4 border-t border-slate-100">
+                        <span class="text-xs font-bold texto-oro uppercase">Obra destacada:</span>
+                        <p class="italic text-slate-800">Informe sobre la ley agraria</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Las cartas marruecas -->
+        <section class="seccion-oscura rounded-[2rem] overflow-hidden shadow-2xl">
+            <div class="p-8 md:p-16 flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2 space-y-6">
+                    <h2 class="text-3xl font-bold texto-oro">Las cartas marruecas</h2>
+                    <p class="text-slate-300 leading-relaxed">
+                        José Cadalso utiliza el género epistolar para diseccionar la realidad española. A través de la mirada de un extranjero, consigue cuestionar las costumbres, la historia y la ociosidad de la nobleza en España.
+                    </p>
+                    <div class="p-6 bg-slate-800 rounded-xl italic text-sm text-slate-400 border-l-2 borde-oro">
+                        Esta obra permite un análisis objetivo de los problemas de España mediante el diálogo de tres personajes con perspectivas únicas.
+                    </div>
+                </div>
+                <!-- Diagrama de personajes -->
+                <div class="lg:w-1/2 flex flex-col justify-center">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-4 bg-slate-800 rounded-lg text-center border border-slate-700">
+                            <h4 class="font-bold text-slate-100">Gazel</h4>
+                            <p class="text-[10px] text-slate-500 uppercase">Joven marroquí viajero</p>
+                        </div>
+                        <div class="p-4 bg-slate-800 rounded-lg text-center border border-slate-700">
+                            <h4 class="font-bold text-slate-100">Ben-Beley</h4>
+                            <p class="text-[10px] text-slate-500 uppercase">Anciano sabio marroquí</p>
+                        </div>
+                        <div class="col-span-2 p-6 bg-amber-700 text-white rounded-lg text-center shadow-lg">
+                            <h4 class="font-bold">Nuño Núñez</h4>
+                            <p class="text-[10px] text-amber-200 uppercase mt-1">El guía y amigo español</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Poesía y teatro -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <!-- El teatro neoclásico -->
+            <div class="space-y-6">
+                <h2 class="text-2xl font-bold border-b-2 border-slate-200 pb-2">El teatro neoclásico</h2>
+                <p class="text-slate-600 text-sm">
+                    Moratín establece el modelo definitivo de comedia. Sus obras respetan las tres unidades (acción, tiempo y lugar) y tienen una clara finalidad moral.
+                </p>
+                <div class="tarjeta-estudio p-6 rounded-xl">
+                    <h4 class="font-bold italic">El sí de las niñas</h4>
+                    <p class="text-xs text-slate-500 mt-2">La comedia critica la educación autoritaria de las jóvenes y los matrimonios impuestos por conveniencia económica.</p>
+                </div>
+            </div>
+            <!-- La lírica y las fábulas -->
+            <div class="space-y-6">
+                <h2 class="text-2xl font-bold border-b-2 border-slate-200 pb-2">Tendencias en la lírica</h2>
+                <div class="grid grid-cols-1 gap-4">
+                    <div class="p-4 bg-white border rounded-xl shadow-sm">
+                        <h4 class="font-bold text-sm">Poesía anacreóntica: Meléndez Valdés</h4>
+                        <p class="text-xs text-slate-500 italic">Lírica que celebra los placeres moderados, el amor idealizado y la amistad. Juan Meléndez Valdés es su representante fundamental.</p>
+                    </div>
+                    <div class="p-4 bg-white border rounded-xl shadow-sm">
+                        <h4 class="font-bold text-sm">Poesía didáctica: Fábulas</h4>
+                        <p class="text-xs text-slate-500 italic">Encarnada en Iriarte y Samaniego. Utiliza el mundo animal para instruir al pueblo con una moraleja clara.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Antología y citas -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="p-10 bg-white border-l-4 borde-oro shadow-md italic">
+                <p class="text-sm font-bold text-slate-400 uppercase mb-4 tracking-widest">Lírica anacreóntica</p>
+                <p class="text-lg text-slate-800 leading-relaxed mb-6">
+                    "Si de mi baja lira<br>
+                    tanto pudiese el son, que en un momento<br>
+                    aplacase la ira<br>
+                    del animoso viento..."
+                </p>
+                <p class="text-sm font-bold text-slate-500 uppercase">— Meléndez Valdés</p>
+            </div>
+            <div class="p-10 bg-white border-l-4 borde-oro shadow-md italic">
+                <p class="text-sm font-bold text-slate-400 uppercase mb-4 tracking-widest">Fábula moral</p>
+                <p class="text-lg text-slate-800 leading-relaxed mb-6">
+                    "A un panal de rica miel<br>
+                    dos mil moscas acudieron,<br>
+                    que por golosas murieron<br>
+                    presas de patas en él."
+                </p>
+                <p class="text-sm font-bold text-slate-500 uppercase">— Félix María de Samaniego</p>
+            </div>
+        </section>
+
+        <!-- Preludio al romanticismo -->
+        <section class="p-10 seccion-oscura rounded-3xl border-t-8 borde-oro">
+            <div class="max-w-3xl mx-auto space-y-6">
+                <h2 class="text-3xl font-bold texto-oro">Preludio del romanticismo</h2>
+                <h3 class="text-xl italic font-bold">Noches lúgubres</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    Esta obra de José Cadalso marca un punto de inflexión. Se aleja de la serenidad ilustrada para adentrarse en la melancolía, el escenario nocturno y la desesperación emocional. La presencia del cementerio y la intensidad del sentimiento la convierten en el gran preludio del movimiento romántico en España.
+                </p>
+                <div class="pt-6 border-t border-slate-700">
+                    <p class="text-xs text-slate-500 uppercase tracking-widest">De la razón al sentimiento exacerbado.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-16 text-center border-t border-slate-200">
+        <p class="text-slate-400 text-xs tracking-widest uppercase mb-2">Guía de estudio: Literatura en la ilustración española.</p>
+        <p class="text-slate-400 text-xs italic">Desarrollado para bachillerato conforme a las normas de estilo y contenido académico.</p>
+    </footer>
+
+</body>
+</html>
